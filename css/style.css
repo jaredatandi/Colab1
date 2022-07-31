@@ -1,0 +1,42 @@
+#main-doc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  margin-top: 1rem;
+  flex-grow: 7;
+  margin-left: 1rem;
+}
+header {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+/* navbar style */
+
+.navbar {
+  margin-top: 0.5rem;
+  flex-grow: 1;
+}
+.nav-item {
+  overflow-y: scroll;
+  height: 100vh;
+}
+.nav-list {
+  list-style: none;
+  padding: 10px;
+}
+.nav-list:not(:last-child) {
+  border-bottom: 1px solid #4d4e53;
+}
+.nav-list:first-child {
+  border-top: 1px solid #4d4e53;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  color: #4d4e53;
+}
