@@ -5,12 +5,13 @@
 
 .main {
   margin-top: 1rem;
-  flex-basis: 80vw;
+  flex-basis: 70vw;
   margin-left: 1rem;
 }
 header {
   font-size: 1.8rem;
   text-transform: capitalize;
+  margin-top: 3rem;
 }
 .main-section p {
   margin: 2.5rem;
@@ -24,6 +25,9 @@ header {
 .nav-item {
   overflow-y: scroll;
   height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 .nav-list {
   list-style: none;
