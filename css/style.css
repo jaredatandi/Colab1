@@ -5,19 +5,21 @@
 
 .main {
   margin-top: 1rem;
-  flex-grow: 7;
+  flex-basis: 80vw;
   margin-left: 1rem;
 }
 header {
   font-size: 1.8rem;
   text-transform: capitalize;
 }
-
+.main-section p {
+  margin: 2.5rem;
+}
 /* navbar style */
 
 .navbar {
   margin-top: 0.5rem;
-  flex-grow: 1;
+  flex-basis: 20vw;
 }
 .nav-item {
   overflow-y: scroll;
@@ -39,4 +41,10 @@ header {
   text-transform: capitalize;
   font-size: 1.3rem;
   color: #4d4e53;
+}
+
+/* code css style */
+code {
+  background-color: #f7f7f7;
+  padding: 30px;
 }
