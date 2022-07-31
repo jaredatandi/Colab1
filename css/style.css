@@ -1,3 +1,5 @@
+@media only screen and (max-width: 600px) {
+}
 #main-doc {
   display: flex;
   justify-content: space-between;
